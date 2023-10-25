@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Website</title>
+    <link rel="icon" href="gambar/asset2.png" />
+    <!-- CSS Pribadi -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- CSS eksternal -->
+    <link rel="stylesheet" href="dist/output.css" />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <nav class="border-gray-200 bg-black">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-5 p-4">
+        <a href="index.html" class="flex items-center">
+          <!-- <img src="gambar/asset2.png" class="w-6 mr-3" alt="Flowbite Logo" /> -->
+          <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">BlackRing.Side</span>
+        </a>
+        <div class="flex md:order-2">
+          <button
+            data-collapse-toggle="navbar-cta"
+            type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-cta"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+            </svg>
+          </button>
+        </div>
+        <div class="items-center text-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+          <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 dark:bg-gray-800 md:bg-gray-900 border-gray-700">
+            <li>
+              <a href="#iseng" class="block py-2 pl-3 pr-4 rounded md:hover:text-blue-300 md:p-0 hover:text-blue-500 text-white hover:bg-gray-800 hover:bg-transparent border-gray-700">About</a>
+            </li>
+            <li>
+              <a href="#porto" class="block py-2 pl-3 pr-4 rounded md:hover:text-blue-300 md:p-0 hover:text-blue-500 text-white hover:bg-gray-800 hover:bg-transparent border-gray-700">Portofolio</a>
+            </li>
+            <li>
+              <a href="#contact-me" class="block py-2 pl-3 pr-4 rounded md:hover:text-blue-300 md:p-0 hover:text-blue-500 text-white hover:bg-gray-800 hover:bg-transparent border-gray-700">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Akhir navbar -->
+
+    <!-- Jumbotron -->
+
+    <section class="bg-center bg-no-repeat bg-black w-full h-screen  relative">
+      <video autoplay loop muted class="absolute w-auto min-w-full max-w-none">
+        <source src="gambar/bg3.mp4" type="video/mp4" />
+      </video>
+
+      <div class="relative px-4 mx-auto max-w-screen-xl text-center pt-8 lg:pt-12">
+        <div class="flex justify-center items-center w-full mb-0">
+          <div class="" id="img-profil">
+            <div id="content">
+              <img src="gambar/profil2.png" alt="image description" />
+            </div>
+          </div>
+        </div>
+
+        <h1 class="mb-3 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Hello, I am<br /><span id="typewriter"></span><span id="cursor">|</span></h1>
+        <p class="mb-5 text-lg font-extrabold text-gray-300 lg:text-xl sm:px-16 lg:px-o">
+          Im Junior website developer. I will help you to create a website at a low price but good quality. My background is as an Informatics <span id="typewriter2"></span
+          ><span id="cursor">|</span>
+        </p>
+        <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+          <!-- <a href="#" class="inline-flex justify-center items-center py-5 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                    Download CV
+                    <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    </svg>
+                </a> -->
+
+          <a class="wrapper" href="file/CV-Gilang.pdf" download="CV-Gilang.pdf">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Download my CV
+          </a>
+
+          <a href="#contact-me" class="inline-flex justify-center bg-white hover:text-white items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-white hover:bg-gray-800 focus:ring-4 focus:ring-gray-400">
+            Contact Me
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- akhir jumbotron -->
+
+    <!-- Section portofolio -->
+
+    <section class="bg-black h-screen relative" id="iseng">
+      <video autoplay loop muted class="absolute w-auto min-w-full max-w-none">
+        <source src="gambar/bg3.mp4" type="video/mp4" />
+      </video>
+
+      <div class="relative py-4 px-4 mx-auto max-w-screen-xl lg:py-16">
+        <div class="p-4 md:p-12 mb-4 justify-center flex text-center">
+          <h1 class="wrapper text-3xl bg-red-800 text-yellow-100" href="">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            SOFT SKILL
+          </h1>
+        </div>
+        <div class="w-full justify-center flex">
+          <div class="grid justify-center md:grid-cols-2 gap-8">
+            <div class="ot rounded-lg p-6 md:p-12 text-center bg-black ">
+              <h2 class="text-white dark:text-white text-3xl font-extrabold mb-2">Programming:</h2>
+              <ul role="list" class="space-y-5 my-7">
+                <li class="flex space-x-3 ">
+                  <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                  </svg>
+                  <span class="text-xl font-normal leading-tight text-blue-300">Tailwind CSS</span>
+                </li>
+                <li class="flex space-x-3 ">
+                  <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                  </svg>
+                  <span class="text-xl font-normal leading-tight text-blue-300">HTML</span>
+                </li>
+                <li class="flex space-x-3 ">
+                  <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                  </svg>
+                  <span class="text-xl font-normal leading-tight text-blue-300">CSS</span>
+                </li>
+                <li class="flex space-x-3">
+                  <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                  </svg>
+                  <span class="text-xl font-normal leading-tight text-blue-300">PHP</span>
+                </li>
+                <li class="flex space-x-3 ">
+                  <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                  </svg>
+                  <span class="text-xl font-normal leading-tight text-blue-300">Basic JavaScript</span>
+                </li>
+              </ul>
+            </div>
+            <div class="ot rounded-lg py-2 px-6 md:p-12 bg-black">
+              <h2 class="text-white dark:text-white text-3xl font-extrabold mb-2">Other things:</h2>
+              <ul role="list" class="space-y-5 my-7">
+                <li class="flex space-x-3 ">
+                  <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                  </svg>
+                  <span class="text-xl font-normal leading-tight text-blue-300">Canva (design)</span>
+                </li>
+                <li class="flex space-x-3 ">
+                  <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                  </svg>
+                  <span class="text-xl font-normal leading-tight text-blue-300">A illustrator (design)</span>
+                </li>
+                <li class="flex space-x-3 ">
+                  <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                  </svg>
+                  <span class="text-xl font-normal leading-tight text-blue-300">Capcut (video editing)</span>
+                </li>
+                
+               
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+<section class="bg-black" id="porto">
+  <video autoplay loop muted class="absolute w-auto min-w-full max-w-none">
+    <source src="gambar/bg3.mp4" type="video/mp4" />
+  </video>
+  <div class="py-8 px-4 mx-auto max-w-screen-xl relative lg:py-6">
+    <div class="p-4 md:p-12 mb-4 justify-center flex text-center">
+      <h1 class="wrapper text-3xl bg-yellow-300 text-black" href="">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Portofolio
+      </h1>
+    </div>
+    <div class="w-full justify-center flex">
+      <div class="grid md:grid-cols-3 gap-8 ">
+          
+        <div class="max-w-sm bg-black border border-blue-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <a href="#">
+              <img class="rounded-t-lg" src="gambar/ss2.png" alt="" />
+          </a>
+          <div class="p-5">
+              <a href="">
+                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Website For reading novels and gallery arts</h5>
+              </a>
+              <p class="mb-3 font-normal text-xl text-white">This is my personal project, on this website I store my novels and also several poster designs that I have created.</p>
+              <a href="https://blackring8.github.io/YourUniverse.id/" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                Visit Web
+                <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                </svg>
+            </a>
+          </div>
+        </div>
+        <div class="max-w-sm bg-black border border-blue-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <a>
+              <img class="rounded-t-lg" src="gambar/1.png" alt="" />
+          </a>
+          <div class="p-5">
+              <a>
+                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Application for workshop system</h5>
+              </a>
+              <p class="mb-3 text-xl font-normal text-white">This is an application for workshop system management, created using java.</p>
+              
+          </div>
+        </div>
+        <div class="max-w-sm bg-black border border-blue-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <a href="#">
+              <img class="rounded-t-lg" src="gambar/2.png" alt="" />
+          </a>
+          <div class="p-5 mt-16">
+              <a href="#">
+                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Pitching Festival</h5>
+              </a>
+              <p class="mb-3 text-xl font-normal text-white">website for campus event projects, created with the developer team.</p>
+              <a href="https://blackring8.github.io/Pitching-festival/" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                  Visit Web
+                  <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                  </svg>
+              </a>
+          </div>
+        </div>
+    </div>
+      
+          
+      </div>
+  </div>
+</section>
+
+
+    <!-- Akhir Section Portofolio -->
+
+    <!-- footer -->
+
+    
+<footer class="bg-blue-900 relative" id="contact-me">
+  <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+      <div class="md:flex md:justify-between">
+        <div class="mb-6 md:mb-0">
+            <a href="https://www.instagram.com/blackring.side/" class="flex items-center">
+                <img src="gambar/asset2.png" class="h-12 mr-3" alt="FlowBite Logo" />
+                <span class="tech self-center text-2xl font-semibold whitespace-nowrap">BlackRing.Side</span>
+            </a>
+        </div>
+        <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+            <div>
+                <h2 class="tech mb-6 text-sm font-semibold  uppercase">Contact Me</h2>
+                <ul class="text-gray-200  font-medium">
+                    <li class="mb-4">
+                        <a href="mailto:gprakoso123@gmail.com" class="hover:underline">Email</a>
+                    </li>
+                    <li class="mb-4">
+                      <a href="" class="hover:underline">fiverr</a>
+                  </li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="tech mb-6 text-sm font-semibold uppercase e">Follow Me</h2>
+                <ul class="text-gray-200  font-medium">
+                    <li class="mb-4">
+                        <a href="https://www.instagram.com/blackring.side/" class="hover:underline ">Instagram</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/gilangprakoso/" class="hover:underline">linkedin</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="tech mb-6 text-sm font-semibold  uppercase ">Legal</h2>
+                <ul class="text-gray-200  font-medium">
+                    <li class="mb-4">
+                        <a class="hover:underline">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a class="hover:underline">Terms &amp; Conditions</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+    <div class="sm:flex sm:items-center sm:justify-between">
+        <span class="text-sm text-gray-200 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.
+        </span>
+    </div>
+  </div>
+</footer>
+
+
+    <!-- Script saya -->
+    <script src="script.js"></script>
+
+    <!-- Script flow bit -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+  </body>
+</html>
