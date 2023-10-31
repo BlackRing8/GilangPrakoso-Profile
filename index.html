@@ -12,16 +12,14 @@
     <link rel="stylesheet" href="dist/output.css" />
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   </head>
   <body>
     <!-- Navbar -->
 
-    <nav class="border-gray-200 bg-black">
-      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-5 p-4">
-        <a href="index.html" class="flex items-center">
-          <!-- <img src="gambar/asset2.png" class="w-6 mr-3" alt="Flowbite Logo" /> -->
-          <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">BlackRing.Side</span>
-        </a>
+    <nav class="border-gray-200">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-center mx-auto p-4">
         <div class="flex md:order-2">
           <button
             data-collapse-toggle="navbar-cta"
@@ -37,7 +35,7 @@
           </button>
         </div>
         <div class="items-center text-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
-          <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 dark:bg-gray-800 md:bg-gray-900 border-gray-700">
+          <ul class="flex flex-col justify-center font-medium p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 dark:bg-gray-800 md:bg-gray-900 border-gray-700">
             <li>
               <a href="#iseng" class="block py-2 pl-3 pr-4 rounded md:hover:text-blue-300 md:p-0 hover:text-blue-500 text-white hover:bg-gray-800 hover:bg-transparent border-gray-700">About</a>
             </li>
@@ -56,8 +54,8 @@
 
     <!-- Jumbotron -->
 
-    <section class="bg-no-repeat bg-black w-full h-screen ">
-      <div class="relative px-4 mx-auto max-w-screen-xl text-center pt-8 lg:pt-12">
+    <section class="iseng2 w-full h-1/2">
+      <div class="px-4 mx-auto max-w-screen-xl text-center pt-8 lg:pt-12">
         <div class="flex justify-center items-center w-full mb-0">
           <div class="" id="img-profil">
             <div id="content">
@@ -67,10 +65,9 @@
         </div>
         <h1 class="mb-3 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Hello, I am<br /><span id="typewriter"></span><span id="cursor">|</span></h1>
         <p class="mb-5 text-lg font-extrabold text-gray-300 lg:text-xl sm:px-16 lg:px-o">
-          Im Junior website developer. I will help you to create a website at a low price but good quality. My background is as an Informatics <span id="typewriter2"></span
-          ><span id="cursor">|</span>
+          Im Junior website developer. I will help you to create a website at a low price but good quality. My background is as an Informatics <span id="typewriter2"></span><span id="cursor">|</span>
         </p>
-        <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+        <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center pb-32 sm:space-y-0 sm:space-x-4">
           <!-- <a href="#" class="inline-flex justify-center items-center py-5 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
                     Download CV
                     <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
@@ -86,7 +83,10 @@
             Download my CV
           </a>
 
-          <a href="#contact-me" class="inline-flex justify-center bg-white hover:text-white items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-white hover:bg-gray-800 focus:ring-4 focus:ring-gray-400">
+          <a
+            href="#contact-me"
+            class="inline-flex justify-center bg-white hover:text-white items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-white hover:bg-gray-800 focus:ring-4 focus:ring-gray-400"
+          >
             Contact Me
           </a>
         </div>
@@ -97,11 +97,9 @@
 
     <!-- Section portofolio -->
 
-    <section class=" bg-black h-auto relative " id="iseng">
-  
-
-      <div class="relative pb-16 px-4 mx-auto max-w-screen-xl lg:py-16">
-        <div class="p-4 md:p-12 mb-4 justify-center flex text-center">
+    <section class="iseng mt-10 flex justify-center items-center h-screen w-full" id="iseng">
+      <div class="pb-16">
+        <div class="p-4 md:p-12 mb-4 flex justify-center">
           <h1 class="wrapper text-3xl bg-red-800 text-yellow-100" href="">
             <span></span>
             <span></span>
@@ -110,76 +108,90 @@
             SOFT SKILL
           </h1>
         </div>
-        <div class="w-full justify-center flex">
-          <div class="grid justify-center md:grid-cols-2 gap-8">
-            <div class="ot rounded-lg p-6 md:p-12 text-center bg-black ">
-              <h2 class="text-white dark:text-white text-3xl font-extrabold mb-2">Programming:</h2>
-              <ul role="list" class="space-y-5 my-7">
-                <li class="flex space-x-3 ">
-                  <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                  </svg>
-                  <span class="text-xl font-normal leading-tight text-blue-300">Tailwind CSS</span>
-                </li>
-                <li class="flex space-x-3 ">
-                  <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                  </svg>
-                  <span class="text-xl font-normal leading-tight text-blue-300">HTML</span>
-                </li>
-                <li class="flex space-x-3 ">
-                  <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                  </svg>
-                  <span class="text-xl font-normal leading-tight text-blue-300">CSS</span>
-                </li>
-                <li class="flex space-x-3">
-                  <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                  </svg>
-                  <span class="text-xl font-normal leading-tight text-blue-300">PHP</span>
-                </li>
-                <li class="flex space-x-3 ">
-                  <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                  </svg>
-                  <span class="text-xl font-normal leading-tight text-blue-300">Basic JavaScript</span>
-                </li>
-              </ul>
+
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide max-w-xs bg-purple-950 rounded-lg shadow">
+              <div class="flex justify-center items-center h-52 w-80">
+                <img class="rounded-lg w-40 h-40" src="gambar/logo/JavaScript_Logo.png" alt="" />
+              </div>
+              <div class="p-5 text-center w-80">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">JavaScript</h5>
+                <p class="mb-3 font-normal text-white">Basic Java Script, bahasa pemprograman untuk keperluan animation atau backend dari web.</p>
+              </div>
             </div>
-            <div class="ot rounded-lg py-2 px-6 md:p-12 bg-black">
-              <h2 class="text-white dark:text-white text-3xl font-extrabold mb-2">Other things:</h2>
-              <ul role="list" class="space-y-5 my-7">
-                <li class="flex space-x-3 ">
-                  <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                  </svg>
-                  <span class="text-xl font-normal leading-tight text-blue-300">Canva (design)</span>
-                </li>
-                <li class="flex space-x-3 ">
-                  <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                  </svg>
-                  <span class="text-xl font-normal leading-tight text-blue-300">A illustrator (design)</span>
-                </li>
-                <li class="flex space-x-3 ">
-                  <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                  </svg>
-                  <span class="text-xl font-normal leading-tight text-blue-300">Capcut (video editing)</span>
-                </li>
-                
-               
-              </ul>
+            <div class="swiper-slide max-w-xs bg-purple-950 rounded-lg shadow">
+              <div class="flex justify-center items-center h-52 w-80">
+                <img class="rounded-lg w-40 h-40" src="gambar/logo/PHP-logo.png" alt="" />
+              </div>
+              <div class="p-5 text-center w-80">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">PHP</h5>
+                <p class="mb-3 font-normal text-white">untuk backend development web</p>
+              </div>
             </div>
-            
+            <div class="swiper-slide max-w-xs bg-purple-950 rounded-lg shadow">
+              <div class="flex justify-center items-center h-52 w-80">
+                <img class="rounded-lg w-40 h-40" src="gambar/logo/tailwindcss-logo.jpg" alt="" />
+              </div>
+              <div class="p-5 text-center w-80">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Tailwind CSS</h5>
+                <p class="mb-3 font-normal text-white">FrameWork CSS untuk UI atau frontend </p>
+              </div>
+            </div>
+            <div class="swiper-slide max-w-xs bg-purple-950 rounded-lg shadow">
+              <div class="flex justify-center items-center h-52 w-80">
+                <img class="rounded-lg w-40 h-40" src="gambar/logo/htmlcss-logo.png" alt="" />
+              </div>
+              <div class="p-5 text-center w-80">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">HTML & CSS</h5>
+                <p class="mb-3 font-normal text-white">Website development.</p>
+              </div>
+            </div>
+            <div class="swiper-slide max-w-xs bg-purple-950 rounded-lg shadow">
+              <div class="flex justify-center items-center h-52 w-80">
+                <img class="rounded-lg w-40 h-40" src="gambar/logo/mysql-logo.png" alt="" />
+              </div>
+              <div class="p-5 text-center w-80">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">MySQL</h5>
+                <p class="mb-3 font-normal text-white">untuk keperluan Database</p>
+              </div>
+            </div>
+            <div class="swiper-slide max-w-xs bg-purple-950 rounded-lg shadow">
+              <div class="flex justify-center items-center h-52 w-80">
+                <img class="rounded-t-lg w-40 h-40" src="gambar/logo/canva-logo.png" alt="" />
+              </div>
+              <div class="p-5 text-center w-80">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Canva</h5>
+                <p class="mb-3 font-normal text-white">Untuk keperluan Graphic design</p>
+              </div>
+            </div>
+            <div class="swiper-slide max-w-xs bg-purple-950 rounded-lg shadow">
+              <div class="flex justify-center items-center h-52 w-80">
+                <img class="rounded-t-lg w-40 h-40" src="gambar/logo/Ai-logo.png" alt="" />
+              </div>
+              <div class="p-5 text-center w-80">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Adobe illustration</h5>
+                <p class="mb-3 font-normal text-white">Saya dapat membuat beberapa design untuk keperluan seperti Logo, Vector, Poster, dan keperluan UI/UX lainnya.</p>
+              </div>
+            </div>
+            <div class="swiper-slide max-w-xs bg-purple-950 rounded-lg shadow ">
+              <div class="flex justify-center items-center h-52 w-80">
+                <img class="rounded-t-lg w-40 h-40" src="gambar/logo/capcut-logo.png" alt="" />
+              </div>
+              <div class="p-5 text-center w-80">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Capcut</h5>
+                <p class="mb-3 font-normal text-white">Video editing</p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full h-8 bg-red-400 opacity-25">
+            <div class="swiper-pagination"></div>
           </div>
         </div>
       </div>
     </section>
 
-    
-    <section class="bg-black h-auto relative" id="porto">
+    <section class="bg-black h-auto" id="porto">
       <div class="py-8 px-4 mx-auto max-w-screen-xl relative lg:py-6">
         <div class="p-4 md:p-12 mb-4 justify-center flex text-center">
           <h1 class="wrapper text-3xl bg-yellow-300 text-black" href="">
@@ -191,125 +203,145 @@
           </h1>
         </div>
         <div class="w-full justify-center flex">
-          <div class="grid md:grid-cols-3 gap-8 ">
-              
+          <div class="grid md:grid-cols-3 gap-8">
             <div class="max-w-sm bg-black border border-blue-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
-                  <img class="rounded-t-lg" src="gambar/ss2.png" alt="" />
+                <img class="rounded-t-lg" src="gambar/ss2.png" alt="" />
               </a>
               <div class="p-5">
-                  <a href="">
-                      <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Website For reading novels and gallery arts</h5>
-                  </a>
-                  <p class="mb-3 font-normal text-xl text-white">This is my personal project, on this website I store my novels and also several poster designs that I have created.</p>
-                  <a href="https://blackring8.github.io/YourUniverse.id/" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                    Visit Web
-                    <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                    </svg>
+                <a href="">
+                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Website For reading novels and gallery arts</h5>
+                </a>
+                <p class="mb-3 font-normal text-xl text-white">This is my personal project, on this website I store my novels and also several poster designs that I have created.</p>
+                <a
+                  href="https://blackring8.github.io/YourUniverse.id/"
+                  class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >
+                  Visit Web
+                  <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                  </svg>
                 </a>
               </div>
             </div>
             <div class="max-w-sm bg-black border border-blue-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
               <a>
-                  <img class="rounded-t-lg" src="gambar/1.png" alt="" />
+                <img class="rounded-t-lg" src="gambar/1.png" alt="" />
               </a>
               <div class="p-5">
-                  <a>
-                      <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Application for workshop system</h5>
-                  </a>
-                  <p class="mb-3 text-xl font-normal text-white">This is an application for workshop system management, created using java.</p>
-                  
+                <a>
+                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Application for workshop system</h5>
+                </a>
+                <p class="mb-3 text-xl font-normal text-white">This is an application for workshop system management, created using java.</p>
               </div>
             </div>
             <div class="max-w-sm bg-black border border-blue-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
-                  <img class="rounded-t-lg" src="gambar/2.png" alt="" />
+                <img class="rounded-t-lg" src="gambar/2.png" alt="" />
               </a>
               <div class="p-5 mt-16">
-                  <a href="#">
-                      <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Pitching Festival</h5>
-                  </a>
-                  <p class="mb-3 text-xl font-normal text-white">website for campus event projects, created with the developer team.</p>
-                  <a href="https://blackring8.github.io/Pitching-festival/" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                      Visit Web
-                      <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                      </svg>
-                  </a>
+                <a href="#">
+                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Pitching Festival</h5>
+                </a>
+                <p class="mb-3 text-xl font-normal text-white">website for campus event projects, created with the developer team.</p>
+                <a
+                  href="https://blackring8.github.io/Pitching-festival/"
+                  class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >
+                  Visit Web
+                  <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                  </svg>
+                </a>
               </div>
             </div>
-        </div>
-          
-              
           </div>
+        </div>
       </div>
     </section>
-
 
     <!-- Akhir Section Portofolio -->
 
     <!-- footer -->
 
-    
-<footer class="bg-blue-900 relative" id="contact-me">
-  <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-      <div class="md:flex md:justify-between">
-        <div class="mb-6 md:mb-0">
+    <footer class="bg-blue-900 relative" id="contact-me">
+      <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <div class="md:flex md:justify-between">
+          <div class="mb-6 md:mb-0">
             <a href="https://www.instagram.com/blackring.side/" class="flex items-center">
-    
-                <span class="tech self-center text-2xl font-semibold whitespace-nowrap">BlackRing.Side</span>
+              <span class="tech self-center text-2xl font-semibold whitespace-nowrap">BlackRing.Side</span>
             </a>
+          </div>
+          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+            <div>
+              <h2 class="tech mb-6 text-sm font-semibold uppercase">Contact Me</h2>
+              <ul class="text-gray-200 font-medium">
+                <li class="mb-4">
+                  <a href="mailto:gprakoso123@gmail.com" class="hover:underline">Email</a>
+                </li>
+                <li class="mb-4">
+                  <a href="" class="hover:underline">fiverr</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2 class="tech mb-6 text-sm font-semibold uppercase e">Follow Me</h2>
+              <ul class="text-gray-200 font-medium">
+                <li class="mb-4">
+                  <a href="https://www.instagram.com/blackring.side/" class="hover:underline">Instagram</a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/gilangprakoso/" class="hover:underline">linkedin</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2 class="tech mb-6 text-sm font-semibold uppercase">Legal</h2>
+              <ul class="text-gray-200 font-medium">
+                <li class="mb-4">
+                  <a class="hover:underline">Privacy Policy</a>
+                </li>
+                <li>
+                  <a class="hover:underline">Terms &amp; Conditions</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-            <div>
-                <h2 class="tech mb-6 text-sm font-semibold  uppercase">Contact Me</h2>
-                <ul class="text-gray-200  font-medium">
-                    <li class="mb-4">
-                        <a href="mailto:gprakoso123@gmail.com" class="hover:underline">Email</a>
-                    </li>
-                    <li class="mb-4">
-                      <a href="" class="hover:underline">fiverr</a>
-                  </li>
-                </ul>
-            </div>
-            <div>
-                <h2 class="tech mb-6 text-sm font-semibold uppercase e">Follow Me</h2>
-                <ul class="text-gray-200  font-medium">
-                    <li class="mb-4">
-                        <a href="https://www.instagram.com/blackring.side/" class="hover:underline ">Instagram</a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/gilangprakoso/" class="hover:underline">linkedin</a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <h2 class="tech mb-6 text-sm font-semibold  uppercase ">Legal</h2>
-                <ul class="text-gray-200  font-medium">
-                    <li class="mb-4">
-                        <a class="hover:underline">Privacy Policy</a>
-                    </li>
-                    <li>
-                        <a class="hover:underline">Terms &amp; Conditions</a>
-                    </li>
-                </ul>
-            </div>
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <div class="sm:flex sm:items-center sm:justify-between">
+          <span class="text-sm text-gray-200 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved. </span>
         </div>
-    </div>
-    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-    <div class="sm:flex sm:items-center sm:justify-between">
-        <span class="text-sm text-gray-200 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.
-        </span>
-    </div>
-  </div>
-</footer>
-
+      </div>
+    </footer>
 
     <!-- Script saya -->
     <script src="script.js"></script>
 
     <!-- Script flow bit -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 0,
+          stretch: 0,
+          depth: 200,
+          modifier: 2,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
   </body>
 </html>
