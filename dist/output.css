@@ -550,6 +550,10 @@ video {
   position: relative;
 }
 
+.z-10 {
+  z-index: 10;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -714,6 +718,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-center {
@@ -889,6 +897,14 @@ video {
 
 .pt-8 {
   padding-top: 2rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-12 {
+  padding-top: 3rem;
 }
 
 .text-center {
