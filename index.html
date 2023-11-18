@@ -37,13 +37,13 @@
         <div class="items-center text-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
           <ul class="flex flex-col justify-center font-medium p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 dark:bg-gray-800 md:bg-gray-900 border-gray-700">
             <li>
-              <a href="#iseng" class="block py-2 pl-3 pr-4 rounded md:hover:text-blue-300 md:p-0 hover:text-blue-500 text-white hover:bg-gray-800 hover:bg-transparent border-gray-700">About</a>
+              <a href="#lokal" class="block py-2 pl-3 pr-4 rounded md:hover:text-blue-300 md:p-0 hover:text-blue-500 text-white hover:bg-gray-800 hover:bg-transparent border-gray-700">About</a>
+            </li>
+            <li>
+              <a href="#iseng" class="block py-2 pl-3 pr-4 rounded md:hover:text-blue-300 md:p-0 hover:text-blue-500 text-white hover:bg-gray-800 hover:bg-transparent border-gray-700">Skill</a>
             </li>
             <li>
               <a href="#porto" class="block py-2 pl-3 pr-4 rounded md:hover:text-blue-300 md:p-0 hover:text-blue-500 text-white hover:bg-gray-800 hover:bg-transparent border-gray-700">Portofolio</a>
-            </li>
-            <li>
-              <a href="#contact-me" class="block py-2 pl-3 pr-4 rounded md:hover:text-blue-300 md:p-0 hover:text-blue-500 text-white hover:bg-gray-800 hover:bg-transparent border-gray-700">Contact Me</a>
             </li>
           </ul>
         </div>
@@ -54,7 +54,7 @@
 
     <!-- Jumbotron -->
 
-    <section class="iseng2 w-full h-1/2 pt-12">
+    <section class="iseng2 w-full h-1/2 pt-12" id="lokal">
       <div class="px-4 mx-auto max-w-screen-xl text-center pt-8 lg:pt-12">
         <div class="flex justify-center items-center w-full mb-0">
           <div class="" id="img-profil">
@@ -65,7 +65,7 @@
         </div>
         <h1 class="mb-3 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Hello, I am<br /><span id="typewriter"></span><span id="cursor">|</span></h1>
         <p class="mb-5 text-lg font-extrabold text-gray-300 lg:text-xl sm:px-16 lg:px-o">
-          Im Junior website developer. I will help you to create a website at a low price but good quality. My background is as an Informatics <span id="typewriter2"></span><span id="cursor">|</span>
+          Im frontend website developer. I will help you to create a website at a low price but good quality. My background is as an Informatics <span id="typewriter2"></span><span id="cursor">|</span>
         </p>
         <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center pb-32 sm:space-y-0 sm:space-x-4">
           <!-- <a href="#" class="inline-flex justify-center items-center py-5 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
@@ -83,15 +83,33 @@
             Download my CV
           </a>
 
-          <a
-            href="#contact-me"
+          <button data-modal-target="defaultModal" data-modal-toggle="defaultModalsmk"
             class="inline-flex justify-center bg-white hover:text-white items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-white hover:bg-gray-800 focus:ring-4 focus:ring-gray-400"
           >
             Contact Me
-          </a>
+          </button>
         </div>
       </div>
     </section>
+
+    <div id="defaultModalsmk" tabindex="-1" aria-hidden="true"
+        class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+        <div class="relative w-full max-w-2xl max-h-full">
+            <!-- Modal content -->
+            <div class="relative bg-white rounded-lg lg:w-10/12 h-96 m-auto shadow overflow-hidden dark:bg-gray-700 flex flex-wrap">
+               <a href="" class="flex w-full h-1/4 bg-yellow-300 mx-3 my-4 justify-center items-center">
+                <h1 class="font-bold text-3xl">Gmail</h1>
+               </a>
+               <a href="" class="flex w-full h-1/4 bg-red-500 mx-3 my-4 justify-center items-center">
+                <h1 class="font-bold text-3xl">Linkedin</h1>
+               </a>
+               <a href="" class="flex w-full h-1/4 bg-blue-500 mx-3 my-4 justify-center items-center">
+                <h1 class="font-bold text-3xl">Instagram</h1>
+               </a>
+               
+            </div>
+        </div>
+    </div>
 
     <!-- akhir jumbotron -->
 
