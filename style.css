@@ -6,8 +6,9 @@ html {
   box-sizing: border-box;
 }
 
-body{
-  background-color:#210842  ;
+body {
+  background-color: #210842;
+  overflow-x: hidden;
 }
 
 #cursor {
@@ -234,54 +235,46 @@ body{
   background-repeat: no-repeat;
 }
 
-
 /* SLIDER */
 .swiper {
   width: 100%;
 }
 
 .swiper-wrapper {
-  width:100%;
-  height:35em;
-  display:flex;
-  align-items:center;
-
-
+  width: 100%;
+  height: 35em;
+  display: flex;
+  align-items: center;
 }
 
 /* card */
 
-
 .card--image {
   width: 10em;
   height: 10em;
-  padding:2em;
+  padding: 2em;
   margin-bottom: 2em;
-
-  
 }
 
 .card--image img {
-  width:100%;
-  height:100%;
-  
+  width: 100%;
+  height: 100%;
 }
 
 .card--content {
   display: flex;
   align-items: center;
   flex-direction: column;
-
 }
 
 .card_title {
-    font-size: 1.5rem;
-    font-weight: 500;
-    position: relative;
-    top: .2em;
+  font-size: 1.5rem;
+  font-weight: 500;
+  position: relative;
+  top: 0.2em;
 }
 
 .card--text {
-  text-align:center;
+  text-align: center;
   margin: 1em 0;
 }
